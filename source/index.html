@@ -2,7 +2,7 @@
 <html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
+    <title>Sedona | Главная</title>
   </head>
   <body class="page__body">
 
@@ -17,16 +17,16 @@
         </buttom>
         <ul class="nav__list">
           <li class="nav__item nav__item-active">
-            <a href="#">Главная</a>
+            <a class="nav__link" href="./index.html">Главная</a>
           </li>
           <li class="nav__item">
-            <a href="#">Фото и видео</a>
+            <a class="nav__link" href="./catalog.html">Фото и видео</a>
           </li>
           <li class="nav__item">
-            <a href="#">Форма отзыва</a>
+            <a class="nav__link" href="./form.html">Форма отзыва</a>
           </li>
           <li class="nav__item">
-            <a href="#">Htmlacademy</a>
+            <a class="nav__link" href="#">Htmlacademy</a>
           </li>
         </ul>
       </nav>
@@ -34,19 +34,21 @@
 
     <main class="main">
 
-      <section class="intro">
-        <h2 class="intro__suptitle">Welcome</h2>
-        <p class="intro__secondsuptitle">to the gorgeous</p>
-        <h1 class="intro__title">Sedona</h1>
-        <h3 class="intro__subtitle">"Because the Grand Canyon sucks!"</h3>
-        <img class="intro__cutter" src="./img/intro-triangle.svg" alt="">
+      <section class="intro-main">
+        <h2 class="intro-main__suptitle">Welcome</h2>
+        <p class="intro-main__secondsuptitle">to the gorgeous</p>
+        <h1 class="intro-main__title">Sedona</h1>
+        <h3 class="intro-main__subtitle">"Because the Grand Canyon sucks!"</h3>
+        <img class="intro-main__cutter" src="./img/intro-triangle.svg" alt="">
       </section>
 
       <section class="advantages">
         <div class="container">
 
-          <h2 class="advantages__title">Cедона — небольшой городок в аризоне, заслуживающий большего!</h2>
-          <p class="advantages__description">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+          <div class="section__header">
+            <h2 class="section__title">Cедона — небольшой городок в аризоне, заслуживающий большего!</h2>
+            <p class="section__description">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+          </div>
 
           <ul class="advantages__list">
             <li class="advantages__item advantage">
@@ -118,14 +120,17 @@
 
       <section class="interested">
         <div class="container">
-          <h2 class="interested__title">Занитересовались?</h2>
-          <p class="interested__text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+          <div class="section__header">
+            <h2 class="section__title">Занитересовались?</h2>
+            <p class="section__text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+          </div>
           <button class="interested__button button">Найти гостиницу</button>
         </div>
       </section>
 
       <section class="map">
         <div class="container">
+          <h2 class="visually-hidden">Местоположение города на карте</h2>
           <img class="map__marker" src="./img/map-marker.svg" alt="Маркер местоположения города">
           <img class="map__image" src="./img/map-desktop.png" alt="Карта">
         </div>
@@ -141,13 +146,19 @@
         <li class="footer__item">
           <ul class="social">
             <li class="social__vk">
-              <img src="./img/social.svg" alt="">
+              <a href="#" target="_blank">
+                <span class="visually-hidden">Вк</span>
+              </a>
             </li>
             <li class="social__tg">
-              <img src="./img/social-1.svg" alt="">
+              <a href="#" target="_blank">
+                <span class="visually-hidden">Тг</span>
+              </a>
             </li>
             <li class="social__youtube">
-              <img src="./img/social-2.svg" alt="">
+              <a href="#" target="_blank">
+                <span class="visually-hidden">Ютуб</span>
+              </a>
             </li>
           </ul>
         </li>
