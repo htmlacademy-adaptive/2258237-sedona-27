@@ -1,0 +1,48 @@
+.advantage__image {
+  width: 320px;
+  height: 260px;
+  margin: 0 auto;
+}
+
+.more__list {
+  list-style: none;
+  padding: 0;
+  margin: 23px 14px 46px;
+}
+
+.more__item {
+
+}
+
+.extra {
+  margin-bottom: 25px;
+  width: 284px;
+
+  &:last-child {
+    margin-bottom: 0px;
+  }
+}
+
+.extra__title {
+  font-family: "PTsansBold";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: $black;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  margin-left: 47px;
+}
+
+.extra__text {
+  font-family: "PTsans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: $gray;
+  margin-top: 0;
+  margin-bottom: 0px;
+  margin-left: 47px;
+}

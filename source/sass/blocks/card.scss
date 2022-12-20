@@ -1,0 +1,38 @@
+.card {
+  padding: 24px 20px 25px;
+}
+
+.card__img {
+  width: 280px;
+  height: 280px;
+}
+
+.card__title {
+  font-family: "PTsansBold";
+  font-size: 14px;
+  line-height: 21px;
+  color: $black;
+  text-transform: uppercase;
+
+  margin-top: 15px;
+}
+
+.card__author {
+  font-family: "PTsans";
+  font-size: 14px;
+  line-height: 21px;
+  color: $gray;
+  margin: 0;
+}
+
+.likes {
+  margin-top: 11px;
+}
+
+.likes__number {
+  font-family: "PTsansBold";
+  font-size: 14px;
+  line-height: 21px;
+  color: $black;
+  margin: 0;
+}

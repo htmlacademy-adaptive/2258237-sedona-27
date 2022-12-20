@@ -1,0 +1,30 @@
+.advantage__card {
+  font-family: "PTsans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-align: center;
+
+  background-color: $lightgray;
+
+  &.colored {
+    background-color: $second;
+    color: $white;
+  }
+}
+
+.advantage__title {
+  padding-top: 37px;
+  font-family: "PTsansBold";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.advantage__description {
+  max-width: 284px;
+  margin: 0 auto;
+  padding-bottom: 37px;
+}

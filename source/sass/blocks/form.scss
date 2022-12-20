@@ -1,0 +1,203 @@
+.fieldgroup {
+  position: relative;
+  border: none;
+  padding: 0 20px;
+  margin: 0;
+
+  border-top: 1px solid #E5E5E5;
+}
+
+.fieldgroup__header {
+  position: absolute;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+
+  font-family: "PTsansBold";
+  font-size: 18px;
+  line-height: 26px;
+  color: $black;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.fieldgroup__list {
+  list-style: none;
+  margin: 70px 0 39px;
+  padding: 0;
+
+  &-contacts {
+    margin-bottom: 34px;
+  }
+
+  &-reduse {
+    margin-bottom: 24px;
+  }
+
+  &-visited {
+    margin-top: 96px;
+  }
+}
+
+.fieldgroup__item {
+  margin-bottom: 16px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+}
+
+.block__title {
+  font-family: "PTsans";
+  font-size: 14px;
+  line-height: 21px;
+  color: $gray;
+  text-transform: uppercase;
+  padding-left: 16px;
+}
+
+.block__input {
+  border: 0;
+  background-color: #F2F2F2;
+  padding: 16px;
+
+  font-family: "PTsansBold";
+  font-size: 18px;
+  line-height: 26px;
+  color: $black;
+
+  &::placeholder {
+    color: rgba($black, 0.3);
+  }
+}
+
+.block-choose {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.block__title-choose {
+  font-family: "PTsansBold";
+  font-size: 18px;
+  line-height: 26px;
+  color: $black;
+
+  padding-top: 10px;
+  padding-left: 16px;
+}
+
+.block__input-radio {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  width: 46px;
+  height: 46px;
+  margin: 0;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    background-color: #F2F2F2;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+  }
+
+  &::after {
+    content: "";
+    display: none;
+    background-color: $gray;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 15px;
+    left: 15px;
+  }
+
+  &:checked {
+
+    &::after {
+      content: "";
+      display: inline-block;
+    }
+  }
+}
+
+.block__input-check {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  width: 46px;
+  height: 46px;
+  margin: 0;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    background-color: #F2F2F2;
+    width: 46px;
+    height: 46px;
+  }
+
+  &::after {
+    content: "";
+    display: none;
+    background-color: $gray;
+    width: 15px;
+    height: 15px;
+
+    position: absolute;
+    top: 15px;
+    left: 15px;
+  }
+
+  &:checked {
+
+    &::after {
+      content: "";
+      display: inline-block;
+    }
+  }
+}
+
+.block__textarea {
+  margin-top: 70px;
+  padding: 16px;
+
+  width: 279px;
+  height: 150px;
+
+  background-color: #F2F2F2;
+  border: none;
+  resize: none;
+
+  font-family: "PTsansBold";
+  font-size: 18px;
+  line-height: 26px;
+  color: $black;
+
+  &::placeholder {
+    color: rgba($black, 0.3);
+  }
+}
+
+.form__button {
+  display: block;
+  margin: 56px auto 0;
+}
+
+.form__others {
+  text-align: end;
+  margin: 3px 20px 24px 0;
+
+  font-family: "PTsans";
+  font-size: 12px;
+  line-height: 21px;
+  color: rgba($gray, 0.3);
+  text-transform: uppercase;
+}
