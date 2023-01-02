@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 320px;
+}
+
+.visually-hidden {
+  visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.button {
+  border: none;
+  background-color: $second;
+  color: $white;
+  font-family: "PTsansBold";
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  padding: 16px 49.5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
